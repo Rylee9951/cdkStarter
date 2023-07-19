@@ -1,0 +1,10 @@
+CDK commands
+cdk init app --language typescript
+cdk bootstrap (creates a starter environment for our app)
+cdk synth (takes our code and generates a cloud formation template for each stack)
+cdk deploy 
+
+cdk list (lists our stacks and runs cdk synth)
+cdk diff (makes a diff between what we have locally and what we have deployed in our cloud formation )
+cdk doctor (tell you if any problems in settings/ versions of libraries)
+cdk destroy {name of stack} (will delete stack from cloud foramation)
